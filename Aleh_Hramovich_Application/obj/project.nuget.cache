@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "i5/hmRj8IiIGuE8uNqRdhGhjNMQ1DifkNtgKGBXfAh1WK5Xx9x4oQsKjf9babCGxB4TpC6tVqikP8DKZDfIJfg==",
+  "success": true,
+  "projectFilePath": "/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/Aleh_Hramovich_Application/Aleh_Hramovich_Application.csproj",
+  "expectedPackageFiles": [
+    "/Users/alehhramovich/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/Users/alehhramovich/.nuget/packages/selenium.webdriver/4.9.1/selenium.webdriver.4.9.1.nupkg.sha512"
+  ],
+  "logs": []
+}
