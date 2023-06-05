@@ -5,9 +5,10 @@
 //new Homework().Task_3();
 //new Homework().Task_4();
 //new Homework().Task_5();
-new Homework().Task_6();
+//new Homework().Task_6();
 
-class Homework {
+class Homework
+{
     public void Task_1()
     {
         int num1 = 11;
@@ -38,10 +39,10 @@ class Homework {
         string words3 = Console.ReadLine()!;
         string?[] arrayOfStrings = new[] { words, words2, words3 };
         Console.WriteLine(string.Join(",", arrayOfStrings)); // with variable
-        Console.WriteLine(string.Join(",",new[] {words, words2, words3})); //inline
+        Console.WriteLine(string.Join(",", new[] { words, words2, words3 })); //inline
 
 
-        string temp = string.Concat(words , ",",words2, ",",words3);
+        string temp = string.Concat(words, ",", words2, ",", words3);
         Console.WriteLine(temp);
     }
 
@@ -49,14 +50,16 @@ class Homework {
     {
         string subbie = Console.ReadLine();
         string subbie2 = subbie.Substring(2);
-        string subbie3 = subbie.Substring(0,3);
+        string subbie3 = subbie.Substring(0, 3);
         string?[] arrayOfSubbies = { subbie, subbie2, subbie3 };
         Console.WriteLine(string.Join(",", arrayOfSubbies));
     }
 
     public void Task_5()
     {
-        string verse = Console.ReadLine()!; //Not too strong, please and one lump of sugar. I like my tea rather sweet, but my husband prefers his without sugar.
+        string
+            verse = Console
+                .ReadLine()!; //Not too strong, please and one lump of sugar. I like my tea rather sweet, but my husband prefers his without sugar.
         string opposite = Console.ReadLine()!; //sour
         Console.WriteLine(verse.Replace("sweet", "sour"));
     }
@@ -67,4 +70,5 @@ class Homework {
         Console.WriteLine(low.ToUpper()); //A
 
     }
+
 }
