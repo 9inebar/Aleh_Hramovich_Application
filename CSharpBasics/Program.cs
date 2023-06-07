@@ -178,7 +178,7 @@ class Homework2
         //true block
         //7.1 a == b
         bool a = true, b = true;
-        Console.WriteLine("a == b: {0}", a == b);
+        Console.WriteLine("a == b:{0}", a == b);
 
     //7.2 a && b == c
         a = true;
