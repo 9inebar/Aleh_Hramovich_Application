@@ -1,6 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-new Homework2().Task_3();
+new Homework2().Task_7();
 
 /*class Homework {
     public void Task_1()
@@ -178,28 +178,28 @@ class Homework2
         //true block
         //7.1 a == b
         bool a = true, b = true;
-        Console.WriteLine("a == b   : {0}", a == b);
+        Console.WriteLine("a == b: {0}", a == b);
 
     //7.2 a && b == c
         a = true;
         b = true;
         bool c = true;
-        Console.WriteLine("a && b == c  :{0}", a && b == c);
+        Console.WriteLine("a && b == c:{0}", a && b == c);
         b = false;
-        Console.WriteLine("a || b != c  :{0}", a || b != c);
-        Console.WriteLine("a != b  :{0}",a != b);
+        Console.WriteLine("a || b != c:{0}", a || b != c);
+        Console.WriteLine("a != b:{0}",a != b);
         a = false;
-        Console.WriteLine("a <= b  :{0}", Convert.ToInt32(a) <= Convert.ToInt32(b));
+        Console.WriteLine("a <= b:{0}", Convert.ToInt32(a) <= Convert.ToInt32(b));
         //false block
         //7.1   a == b
         a = true;
         b = !a;   // b = false
-        Console.WriteLine("a == b  :", a == b);
+        Console.WriteLine("a == b:{0}", a == b);
         //7.2   a && b == c
         c = false;
         a = true;
         b = true;
-        Console.WriteLine("a && b == c   :", a && b == c);
+        Console.WriteLine("a && b == c:{0}", a && b == c);
         // 7.3  a || b != c   == false
         a = false;
         b = false;
@@ -209,16 +209,16 @@ class Homework2
         //    true || false = true
         //    false|| true = true
         //    false|| false = false
-        Console.WriteLine("a || b != c  :", a || b != c);
+        Console.WriteLine("a || b != c:{0}", a || b != c);
         //7.4 a != b
         a = false;
         b = false;
         // false != false => false
-        Console.WriteLine("a != b  :", a != b);
+        Console.WriteLine("a != b:{0}", a != b);
         //7.5  a <= b
         a = true;
         b = false;
-        Console.WriteLine("a <= b  :", Convert.ToInt32(a) <= Convert.ToInt32(b));
+        Console.WriteLine("a <= b:{0}", Convert.ToInt32(a) <= Convert.ToInt32(b));
     }
     public void Task_8(){
         int i = 123;
