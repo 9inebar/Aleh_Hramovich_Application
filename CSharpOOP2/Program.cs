@@ -50,12 +50,12 @@ Car myCar5 = new Car();
 //working getter
 Console.WriteLine($"My car's current mileage is {myCar5.Mileage}");
 
-myCar5.Mileage = 300000; //error line
+//myCar5.Mileage = 300000; //error line
 
 //working getter
 Console.WriteLine(myCar5.CurrentSpeed = 150);
 
-Console.WriteLine(myCar5.CurrentSpeed); //error line
+//Console.WriteLine(myCar5.CurrentSpeed); //error line
 
 //calling static variable
 Car.EngineType = "Diesel";
