@@ -48,18 +48,14 @@ myCar4.FuelACar(FuelLiter6);
 //getters & setters
 Car myCar5 = new Car();
 //working getter
-Console.WriteLine($"My car's current mileage is {myCar5.Mileage}"); 
+Console.WriteLine($"My car's current mileage is {myCar5.Mileage}");
 
-//non working private variable
-
-//Console.WriteLine($"My car's current mileage is {myCar5._mileage}"); 
+myCar5.Mileage = 300000; //error line
 
 //working getter
-Console.WriteLine(myCar5.CurrentSpeed = 150); 
+Console.WriteLine(myCar5.CurrentSpeed = 150);
 
-//non working private variable
-
-//Console.WriteLine(myCar5._currentSpeed = 150); 
+Console.WriteLine(myCar5.CurrentSpeed); //error line
 
 //calling static variable
 Car.EngineType = "Diesel";
