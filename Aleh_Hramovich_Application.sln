@@ -6,6 +6,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpBasics", "CSharpBasic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cycles", "Cycles\Cycles.csproj", "{6D19C43E-15E2-4A99-8A32-E5CFAA578F32}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpOOP", "CSharpOOP\CSharpOOP.csproj", "{5AE550A2-A8A1-4A70-A006-C831572F8481}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpOOP2", "CSharpOOP2\CSharpOOP2.csproj", "{5C809546-6C0F-482C-9B1C-68755CEC8B21}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +28,13 @@ Global
 		{6D19C43E-15E2-4A99-8A32-E5CFAA578F32}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D19C43E-15E2-4A99-8A32-E5CFAA578F32}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D19C43E-15E2-4A99-8A32-E5CFAA578F32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AE550A2-A8A1-4A70-A006-C831572F8481}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AE550A2-A8A1-4A70-A006-C831572F8481}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AE550A2-A8A1-4A70-A006-C831572F8481}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AE550A2-A8A1-4A70-A006-C831572F8481}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C809546-6C0F-482C-9B1C-68755CEC8B21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C809546-6C0F-482C-9B1C-68755CEC8B21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C809546-6C0F-482C-9B1C-68755CEC8B21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C809546-6C0F-482C-9B1C-68755CEC8B21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
