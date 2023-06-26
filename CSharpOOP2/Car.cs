@@ -23,10 +23,12 @@ public class Car
     public double Mileage
     {
         get { return _mileage; }
+        set { _mileage = value; }
     }
     private double _currentSpeed;
     public double CurrentSpeed
     {
+        get { return _currentSpeed;}
         set { _currentSpeed = value; }
     }
     
