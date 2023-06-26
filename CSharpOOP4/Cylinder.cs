@@ -4,11 +4,6 @@ namespace CSharpOOP4;
 
 public class Cylinder : Shape
 {
-    public Cylinder(string _name, int _height, int _radius) : base(_name)
-    {
-        this._height = _height;
-        this._radius = _radius;
-    }
     private int _height;
     public int Height
     {
@@ -21,15 +16,20 @@ public class Cylinder : Shape
         get { return _radius; }
         set { _radius = value; }
     }
+    public Cylinder(string _name, int _height, int _radius) : base(_name)
+    {
+        this._height = _height;
+        this._radius = _radius;
+    }
     //calculating the cylinder's volume
-    public override double calculateVolume()
+    public override double CalculateVolume()
     {
         return Math.PI * (Radius ^ 2) * Height;
     }
     //printing the cylinder's volume
     public override void PrintShapeInfo()
     {
-        Console.WriteLine($"Cylinder's volume is {calculateVolume()} according to the radius={Radius} " +
+        Console.WriteLine($"Cylinder's volume is {CalculateVolume()} according to the radius={Radius} " +
                           $"and height={Height}");
     }
 }

@@ -2,11 +2,6 @@ namespace CSharpOOP4;
 
 public class Pyramid : Shape
 {
-    public Pyramid(string _name, int _height, int _square) : base(_name)
-    {
-        this._height = _height;
-        this._square = _square;
-    }
     private int _height;
     public int Height
     {
@@ -17,14 +12,19 @@ public class Pyramid : Shape
     {
         get { return _square; }
     }
+    public Pyramid(string _name, int _height, int _square) : base(_name)
+    {
+        this._height = _height;
+        this._square = _square;
+    }
     //calculating the pyramid's volume
-    public override double calculateVolume()
+    public override double CalculateVolume()
     {
         return (1 / 3.0 * Square) * Height;
     }
     //printing the pyramid's volume
     public override void PrintShapeInfo()
     {
-        Console.WriteLine($"Pyramid's volume is {calculateVolume()} according to the square={Square} and height={Height}");
+        Console.WriteLine($"Pyramid's volume is {CalculateVolume()} according to the square={Square} and height={Height}");
     }
 }
