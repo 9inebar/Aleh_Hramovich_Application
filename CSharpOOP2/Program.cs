@@ -2,6 +2,7 @@
 
 using CSharpOOP2;
 
+/*
 //first example of the car class
 Car myCar = new Car();
 myCar.color = "green";
@@ -40,3 +41,33 @@ myCar4.FuelACar(FuelLiter5);
 double FuelLiter6 = double.Parse(Console.ReadLine()!);
 myCar4.FuelACar(FuelLiter6);
 //the method works well because by default public double fuelLevel equals 0;
+*/
+
+//CSharpOOP3 hometask
+
+//getters & setters
+Car myCar5 = new Car();
+//working getter
+Console.WriteLine($"My car's current mileage is {myCar5.Mileage}");
+
+//myCar5.Mileage = 300000; //error line
+
+//working getter
+Console.WriteLine(myCar5.CurrentSpeed = 150);
+
+//Console.WriteLine(myCar5.CurrentSpeed); //error line
+
+//calling static variable
+Car.EngineType = "Diesel";
+Console.WriteLine($"My car engine is now swapped to {Car.EngineType}");
+
+//calling static method
+Car.ExhaustSound();
+
+//calling static class first static method
+CarHelper.ReprintCarColor(myCar5,  "white");
+Console.WriteLine($"My car's color is now {myCar5.Color}");
+
+// calling second static method
+CarHelper.ChangeTyres(myCar5, "Michelin");
+Console.WriteLine($"My car tyres are now updated to {myCar5.TyresBrand}");
