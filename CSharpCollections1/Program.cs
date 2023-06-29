@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using CSharpCollections1;
 
-/*
 #region Task1
 //declaring 3 arrays
 int[] numbers = {6,9,3,8,7,10,5,4,1,2};
@@ -49,33 +48,44 @@ Console.WriteLine(maxArray - minArray);
 
 var lastNames = new List<string> {"Smith", "Johns", "Marks", "Murphy", "Connor", "Green","Black"};
 lastNames.Sort();
-foreach (var i in lastNames)
+foreach (var n in lastNames)
 {
-    Console.WriteLine(i);
+    Console.WriteLine(n);
 }
 
-#endregion*/
+#endregion
 
 #region Task 4
-
+//declaring new collection
 List<Citizen> listOfCitizens = new List<Citizen>();
 listOfCitizens.Add(new Citizen("Bogdanovich", "Jan", "Jakubovich",new Address("ulica Rakauskaja", "3"),new DateTime(1960,12,15)));
 listOfCitizens.Add(new Citizen("Petrovich", "Ivan", "Ivanovich",new Address("ulica Pushkina", "4"),new DateTime(1981,1,5)));
 listOfCitizens.Add(new Citizen("Makarevich", "Jan", "Jakubovich",new Address("ulica Krasnaja","2"),new DateTime(1960,12,15)));
-listOfCitizens.Add(new Citizen("Ivanovich", "Petr", "Stanislavovich",new Address("ulica Rakauskaja","7"),new DateTime(2010,11,7)));
-listOfCitizens.Add(new Citizen("Sharangovich", "Michal", "Tadeushevich",new Address("ulica Rakauskaja","3"),new DateTime(2006,3,22)));
+listOfCitizens.Add(new Citizen("Ivanovich", "Petr", "Stanislavovich",new Address("ulica Rakauskaja","3"),new DateTime(2010,11,7)));
+listOfCitizens.Add(new Citizen("Sharangovich", "Michal", "Tadeushevich",new Address("ulica Rakauskaja","3"),new DateTime(2003,3,22)));
 
-List<Citizen> ListOfCitizensAbleToVote =
-    listOfCitizens.Where(citizen => DateTime.UtcNow.Date.CompareTo(citizen.dob) > 18 && citizen.GetAddress==(new Address("ulica Rakauskaja","3"))).ToList();
-ListOfCitizensAbleToVote.ForEach(citizen => Console.WriteLine(citizen.ToString()));
+//declaring sorted collection
+List<Citizen> listOfCitizensAbleToVote = new List<Citizen>();
+
+//sorting the list of citizens who may vote
+foreach (Citizen citizen in listOfCitizens)
+{
+    if (citizen.CalculateAge() > 18 && citizen.GetAddress.Equals(new Address("ulica Rakauskaja", "3")))
+    {
+        listOfCitizensAbleToVote.Add(citizen);
+    }
+} 
+
+//printing the citizens who may vote
+listOfCitizensAbleToVote.ForEach(citizen => Console.WriteLine(citizen.ToString()));
 
 #endregion
 
-/*
+
 #region Task5
 
 Dictionary<string, string> myDictionary = new Dictionary<string, string>();
-Console.WriteLine("Enter a Contry:Capital");
+Console.WriteLine("Enter a Country and its Capital");
 myDictionary.Add(Console.ReadLine(), Console.ReadLine());
 myDictionary.Add(Console.ReadLine(), Console.ReadLine());
 myDictionary.Add(Console.ReadLine(), Console.ReadLine());
@@ -90,7 +100,6 @@ foreach (var keyValuePair in myDictionary)
 
 foreach (var VARIABLE in myDictionary2)
 {
-    Console.WriteLine($"{VARIABLE.Key} {VARIABLE.Value}");
+    Console.WriteLine($"{VARIABLE.Key} is the capital of {VARIABLE.Value}");
 }
 #endregion
-*/

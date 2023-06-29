@@ -24,6 +24,21 @@ public class Address
 
     public override string ToString()
     {
-        return "address" + street +"house"+ house;
+        return street +", "+ house;
+    }
+
+    public override bool Equals(object? obj)
+    {
+        if (obj == null)
+        {
+            return false;
+        }
+        // If the passed object is not Customer Type, return False
+        if (!(obj is Address))
+        {
+            return false;
+        }
+        return (this.street == ((Address)obj).street)
+               && (this.house == ((Address)obj).house);
     }
 }

@@ -9,11 +9,17 @@ public class Citizen
     private string _firstName;
     private string _patronymicName;
     private Address _address;
-    public Address GetAddress { get; }
+    public Address GetAddress
+    {
+        get { return _address; }
+    }
     private DateTime _dob;
-    public DateTime dob { get; set; }
-    
-    
+    public DateTime DOB
+    {
+        get { return _dob; }
+    }
+
+
     public Citizen(string lastName, string firstName, string patronymicName, Address address, DateTime dob)
     {
         _lastName = lastName;
@@ -27,6 +33,11 @@ public class Citizen
     public override string ToString()
     {
         return
-            "last name" + _lastName+"first name" +_firstName + "patronymicName" +_patronymicName + " "+_address.ToString()+ "dob"+_dob;
+            "Last Name: "+ _lastName + ", First Name: "+ _firstName + ", Patronymic Name: "+ _patronymicName + ", Address: "+ _address + ", dob: "+_dob;
+    }
+
+    public Int32 CalculateAge()
+    {
+        return (int) ((DateTime.Now - _dob).TotalDays/365.242199);
     }
 }
