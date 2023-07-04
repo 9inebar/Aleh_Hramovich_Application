@@ -53,6 +53,11 @@ public class Car
     {
         
     }
+    
+    public Car(string color)
+    {
+        this.color = color;
+    }
 
     public void FuelACar(double litersToAdd)
     {
@@ -88,5 +93,10 @@ public class Car
     public static void exhaustSound()
     {
         Console.WriteLine("Erondondon!!!");
+    }
+
+    public override string ToString()
+    {
+        return "color: " + this.color;
     }
 }
