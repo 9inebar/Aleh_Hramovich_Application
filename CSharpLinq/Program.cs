@@ -3,10 +3,8 @@ using CSharpOOP2;
 
 #region Task1
 
-using System.Security.Cryptography;
-
 List<int> numbers = new List<int>{1,2,3,4,5,6,7,8,9,10};
-IEnumerable<int> numbersDividedByThree = from num in numbers where num % 3 == 0 select num;
+var numbersDividedByThree = from num in numbers where num % 3 == 0 select num;
 foreach (var n in numbersDividedByThree)
 {
     Console.WriteLine(n);
@@ -36,8 +34,9 @@ foreach(var w in evenLongItems)
 #region Task4
 
 var cities = new List<string> { "london", "minsk", "brest", "manchester", "pinsk", "lubliN" };
+var startsWithChar = "L";
 var citiesStartingAndEndingWithTheSameLetters =
-    cities.Where(c => c.ToUpper().StartsWith("L") && c.ToLower().EndsWith("n"));
+    cities.Where(c => c.ToUpper().StartsWith(startsWithChar) && c.ToLower().EndsWith("n"));
 citiesStartingAndEndingWithTheSameLetters.ToList().ForEach(c=>Console.WriteLine(c));
 
 #endregion
@@ -65,7 +64,7 @@ uniqueNumbers.ToList().ForEach(n =>Console.WriteLine(n));
 List<int> myNumbers = new List<int>{1,4,7,22,13,19,67,53,77,93};
 Console.WriteLine("Enter any number");
 var userInput = Console.ReadLine();
-myNumbers.Contains(Convert.ToInt32(userInput));
+
 if (myNumbers.Contains(Convert.ToInt32(userInput)))
 {
     Console.WriteLine("The collection contains the entered number");
