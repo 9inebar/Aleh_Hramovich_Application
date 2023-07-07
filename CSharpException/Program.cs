@@ -2,32 +2,31 @@
 
 using CSharpException;
 
-
-Console.WriteLine("Please enter side 1 length");
-try {
-    double side1 = Convert.ToDouble(Console.ReadLine());
-    if (side1 == 0)
-    {
-        throw new TriangleException("Can't be 0");
-    }
-    Console.WriteLine("Please enter side 2 length");
-    double side2 = Convert.ToDouble(Console.ReadLine());
-    if (side2 == 0)
-    {
-        throw new TriangleException("Can't be 0");
-    }
-    Console.WriteLine("Please enter side 3 length");
-    double side3 = Convert.ToDouble(Console.ReadLine());
-    if (side3 == 0)
-    {
-        throw new TriangleException("Can't be 0");
-    }
-
-    Triangle myTriangle = new Triangle(side1, side2, side3);
-    Console.WriteLine($"The triangle sides are {myTriangle.Side1},{myTriangle.Side2},{myTriangle.Side3}");
-}
-catch (TriangleException te)
+bool isNumberNull = false;
+double side1 = 0;
+double side2 = 0;
+double side3 = 0;
+Triangle myTriangle = new Triangle();
+while (!isNumberNull)
 {
-    Console.WriteLine(te.Message);
-}
+    Console.WriteLine("Please enter side 1 length");
+    side1 = Convert.ToDouble(Console.ReadLine());
 
+    Console.WriteLine("Please enter side 2 length");
+    side2 = Convert.ToDouble(Console.ReadLine());
+
+    Console.WriteLine("Please enter side 3 length");
+    side3 = Convert.ToDouble(Console.ReadLine());
+    
+    try
+    {
+        myTriangle.CheckTriangleSides(side1, side2, side3);
+        isNumberNull = true;
+    }
+    catch(TriangleException te)
+    {
+        Console.WriteLine(te.Message);
+        continue;
+    }
+
+}
