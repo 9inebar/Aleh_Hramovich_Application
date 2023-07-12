@@ -18,6 +18,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpLinq", "CSharpLinq\CS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpException", "CSharpException\CSharpException.csproj", "{E0BE3EEE-E04F-4CF4-893E-E0470378A9A1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{6A523867-73A9-4328-A18F-7ADBD37C8E24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory Method", "Factory Method\Factory Method.csproj", "{6E3B615A-277C-405F-A1C9-8D473B1521BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,5 +64,13 @@ Global
 		{E0BE3EEE-E04F-4CF4-893E-E0470378A9A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0BE3EEE-E04F-4CF4-893E-E0470378A9A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0BE3EEE-E04F-4CF4-893E-E0470378A9A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A523867-73A9-4328-A18F-7ADBD37C8E24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A523867-73A9-4328-A18F-7ADBD37C8E24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A523867-73A9-4328-A18F-7ADBD37C8E24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A523867-73A9-4328-A18F-7ADBD37C8E24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E3B615A-277C-405F-A1C9-8D473B1521BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E3B615A-277C-405F-A1C9-8D473B1521BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E3B615A-277C-405F-A1C9-8D473B1521BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E3B615A-277C-405F-A1C9-8D473B1521BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
