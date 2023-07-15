@@ -1,6 +1,6 @@
 namespace CSharpAdvanced;
 
-public class Rose
+public class Rose : Flower
 {
     
 }

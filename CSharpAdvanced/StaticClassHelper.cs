@@ -1,15 +1,14 @@
-using System.Drawing;
-using CSharpOOP2;
+namespace CSharpAdvanced;
 
 public static class StaticClassHelper
 {
-    public static void ReprintCarColor(Car myCar, string color)
+    public static void RepaintFlowers<T>(this FlowerService<T> flowerSerice,  Flower flower, string color)
     {
-        myCar.Color = color;
+        flower.Color = color;
     }
 
-    public static void ChangeTyres(Car myCar, string tyresBrand)
+    public static void RevaluateFlowers<T>(this FlowerService<T> flowerSerice,  Flower flower, double cost)
     {
-        myCar.TyresBrand = tyresBrand;
+        flower.Cost = cost;
     }
 }

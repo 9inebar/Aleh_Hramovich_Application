@@ -1,6 +1,6 @@
 namespace CSharpAdvanced;
 
-public class peony
+public class Peony : Flower
 {
     
 }
