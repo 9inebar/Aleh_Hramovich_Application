@@ -17,7 +17,8 @@ public class Flower
      private double cost;
      public double Cost
      {
-          get { return Math.Round(cost, 2); }
+          get { return cost; }
           set { cost = value; }
      }
+     
 }

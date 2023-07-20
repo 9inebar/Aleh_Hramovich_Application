@@ -4,7 +4,7 @@ using CSharpAdvanced;
 
 //first task
 List<int> newList = new List<int>{1,2,3,4,5};
-Console.WriteLine(GenericMethodClass.GetGenericElement(newList));
+Console.WriteLine(GenericMethodClass.GetFirstElement(newList));
 
 //second task
 Rose myRose = new Rose();
@@ -28,8 +28,8 @@ GenericMethodClass.PrintCostOfBouquetCheck(myPeony, amountOfPeonies);
 
 //third task
 FlowerService<Flower> flowerService = new FlowerService<Flower>();
-flowerService.PaintFlowers(myRose, "yellow");
-flowerService.PaintFlowers(myPeony, "violet");
+flowerService.PaintFlowers(myRose, "yellow", 1.15);
+flowerService.PaintFlowers(myPeony, "violet", 1.05);
 
 Console.WriteLine(myRose.Cost + " is the new cost of " + myRose.Color + " "+ myRose.Name);
 Console.WriteLine(myPeony.Cost + " is the new cost of " + myPeony.Color + " "+ myPeony.Name);
@@ -39,10 +39,10 @@ GenericMethodClass.PrintCostOfBouquetCheck(myRose, amountOfRoses);
 GenericMethodClass.PrintCostOfBouquetCheck(myPeony, amountOfPeonies);
 
 //fourth task
-flowerService.RepaintFlowers(myRose, "black");
+myRose.RepaintFlowers("black");
 Console.WriteLine($"I have reprinted my {myRose.Name} color to {myRose.Color}");
 
-flowerService.RevaluateFlowers(myRose, 22.44);
+myRose.RevaluateFlowers(22.44);
 Console.WriteLine($"I have raised my {myRose.Name} price to {myRose.Cost}");
 
 

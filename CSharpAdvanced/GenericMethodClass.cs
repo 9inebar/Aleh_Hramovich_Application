@@ -2,7 +2,7 @@ namespace CSharpAdvanced;
 
 public class GenericMethodClass
 {
-    public static T GetGenericElement<T>(List<T> listOfElements)
+    public static T GetFirstElement<T>(List<T> listOfElements)
     {
         return listOfElements.First();
     }
