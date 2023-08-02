@@ -2,10 +2,10 @@ using CSharpCalculator;
 
 namespace xUnitTests;
 
-public class IsPositive_Pos_Test
+public class IsPositiveTest
 {
     [Fact]
-    public void Is7PositiveExpectsTrue()
+    public void IsXPositiveExpectsTrue()
     {
         double  x = 5;
         bool expected = true;

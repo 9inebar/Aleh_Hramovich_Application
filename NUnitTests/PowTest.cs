@@ -2,25 +2,25 @@ using CSharpCalculator;
 
 namespace NUnitTests;
 
-public class Mult_Pos_Test
+public class PowTest
 {
-    double x;
+    int x;
     double y;
     double expected;
     
     [SetUp]
     public void Setup()
     {
-        x = 2;
-        y = 2;
-        expected = 4;
+        x = 7;
+        y = 3;
+        expected = 343;
     }
 
     [Test]
     public void Test1()
     {
         Calculator myCalc = new Calculator();
-        double actual = myCalc.Multiply(x, y);
+        double actual = myCalc.Pow(x, y);
         Assert.That(actual,Is.EqualTo(expected));  
     }
 }

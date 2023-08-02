@@ -2,25 +2,23 @@ using CSharpCalculator;
 
 namespace NUnitTests;
 
-public class Add_Pos_Test
+public class IsPositiveTest
 {
-    double x;
-    double y;
-    double expected;
+    object x;
+    bool expected;
     
     [SetUp]
     public void Setup()
     {
-         x = 10;
-         y = 20;
-         expected = 30;
+        x = -5;
+        expected = false;
     }
 
     [Test]
     public void Test1()
     {
         Calculator myCalc = new Calculator();
-        double actual = myCalc.Add(x, y);
+        bool actual = myCalc.isPositive(x);
         Assert.That(actual,Is.EqualTo(expected));  
     }
 }

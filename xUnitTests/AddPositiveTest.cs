@@ -5,7 +5,7 @@ namespace xUnitTests;
 public class AddPositiveTest
 {
     [Fact]
-    public void Add10Plus20Expect30()
+    public void AddXPlusY()
     {
         double  x = 10;
         double  y = 20;
@@ -13,7 +13,6 @@ public class AddPositiveTest
 
         Calculator myCalc = new Calculator();
         double actual = myCalc.Add(x, y);
-        Assert.Equal(expected, actual); 
-        
+        Assert.Equal(expected, actual);
     }
 }

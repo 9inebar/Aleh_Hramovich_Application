@@ -2,10 +2,22 @@ using CSharpCalculator;
 
 namespace xUnitTests;
 
-public class MLTP_Neg_Test
+public class MLTPTest
 {
     [Fact]
-    public void MultiplyBigXBigEqualsOutOfDouble()
+    public void MultiplyXbyY() //positive
+    {
+        double x = 4;
+        double y = 4;
+        double expected = 16;
+
+        Calculator myCalc = new Calculator();
+        double actual = myCalc.Multiply(x,y);
+        Assert.Equal(expected, actual);
+    }
+    
+    [Fact]
+    public void MultiplyBigXBigEqualsOutOfDouble() //negative
     {
         double x = 100000000000000000;
         double y = 100000000000000000;

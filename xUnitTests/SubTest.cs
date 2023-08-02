@@ -2,10 +2,10 @@ using CSharpCalculator;
 
 namespace xUnitTests;
 
-public class Sub_Pos_Test
+public class SubTest
 {
     [Fact]
-    public void Substitute4Minus1Equals3()
+    public void SubstituteXMinusYEqualsExpected()
     {
         double  x = 4;
         double y = 1;

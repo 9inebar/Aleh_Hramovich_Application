@@ -2,10 +2,10 @@ using CSharpCalculator;
 
 namespace xUnitTests;
 
-public class Power_Pos_Test
+public class PowerTest
 {
     [Fact]
-    public void FiveToTwoPowerExpect25()
+    public void XToYPower()
     {
         int  x = 5;
         double  y = 2;
@@ -13,7 +13,6 @@ public class Power_Pos_Test
 
         Calculator myCalc = new Calculator();
         double actual = myCalc.Pow(x, y);
-        Assert.Equal(expected, actual); 
-        
+        Assert.Equal(expected, actual);
     }
 }

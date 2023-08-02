@@ -2,17 +2,15 @@ using CSharpCalculator;
 
 namespace NUnitTests;
 
-public class SUB_Pos_Test
+public class ABSTest
 {
     double x;
-    double y;
     double expected;
     
     [SetUp]
     public void Setup()
     {
-        x = 7;
-        y = 2;
+        x = -5;
         expected = 5;
     }
 
@@ -20,7 +18,7 @@ public class SUB_Pos_Test
     public void Test1()
     {
         Calculator myCalc = new Calculator();
-        double actual = myCalc.Sub(x, y);
-        Assert.That(actual,Is.EqualTo(expected));
+        double actual = myCalc.Abs(x);
+        Assert.That(actual,Is.EqualTo(expected));  
     }
 }

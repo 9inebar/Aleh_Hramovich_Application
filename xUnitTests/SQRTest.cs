@@ -2,10 +2,10 @@ using CSharpCalculator;
 
 namespace xUnitTests;
 
-public class SQR_Pos_Test
+public class SQRTest
 {
     [Fact]
-    public void Square36Expected6()
+    public void SquareFromX()
     {
         double x = 36;
         double expected = 6;

@@ -2,7 +2,7 @@ using CSharpCalculator;
 
 namespace NUnitTests;
 
-public class Sqrt_Pos_Test
+public class SqrtTest
 {
     double x;
     double y;
