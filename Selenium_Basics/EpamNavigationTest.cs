@@ -34,7 +34,7 @@ public class SeleniumTests
     }
     
     [Test]
-    public void CheckThatGoBackToPreviousPageIsWorking()
+    public void CheckThatGoBackToPreviousPageWorks()
     {
         var epamUrl = "https://www.epam.com/";
         var howUrl = "https://www.epam.com/how-we-do-it";
