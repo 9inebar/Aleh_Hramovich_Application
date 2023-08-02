@@ -1,6 +1,5 @@
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
-
 namespace Selenium_Basics;
 
 public class SeleniumTests
@@ -19,11 +18,8 @@ public class SeleniumTests
     public void CheckThatCorrectLandingPageDisplayed()
     {
         var epamUrl = "https://www.epam.com/";
-
         driver.Manage().Window.Maximize();
-        
         driver.Navigate().GoToUrl(epamUrl);
-
         Assert.That(driver.Url,Is.EqualTo(epamUrl), "Landing page is not displayed correctly");
     }
 
