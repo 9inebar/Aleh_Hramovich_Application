@@ -84,13 +84,10 @@ public class EpamNavigationTests2
         Assert.That(driver.Url,Is.EqualTo(searchUrl), "The url is wrong");
         
         var firstArticleTitle = driver.FindElement(By.XPath("//a[@class='search-results__title-link'][1]")).Text;
-        Console.WriteLine(firstArticleTitle);
         driver.FindElement(By.XPath("//button[@id='onetrust-accept-btn-handler']")).Click();
         Thread.Sleep(1000);
         driver.FindElement(By.XPath("//a[@class='search-results__title-link'][1]")).Click();
         var openedArticleTitle = driver.FindElement(By.XPath("//span[@class='museo-sans-light']")).Text;
-        Console.WriteLine(openedArticleTitle);
-        
         Assert.That(firstArticleTitle, Is.EqualTo(openedArticleTitle), "Titles are different");
     }
 
