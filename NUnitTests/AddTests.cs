@@ -3,21 +3,11 @@ using NUnit.Framework;
 
 namespace NUnitTests;
 
-<<<<<<< HEAD
-<<<<<<<< HEAD:NUnitTests/AddTests.cs
-public class AddTests
-========
-=======
->>>>>>> 2e9e889 (unit testing frameworks updates)
 <<<<<<<< HEAD:NUnitTests/AddTest.cs
 public class AddTest
 ========
 public class AddTests
 >>>>>>>> ef2ec11 (unit testing framework corrections):NUnitTests/AddTests.cs
-<<<<<<< HEAD
->>>>>>>> 2e9e889 (unit testing frameworks updates):NUnitTests/AddTest.cs
-=======
->>>>>>> 2e9e889 (unit testing frameworks updates)
 {
     double x;
     double y;
