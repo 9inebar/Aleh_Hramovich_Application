@@ -1,12 +1,14 @@
 using CSharpCalculator;
+using NUnit.Framework;
 
 namespace NUnitTests;
 
-public class Pow_Pos_Test
+public class PowerTests
 {
     int x;
     double y;
     double expected;
+    private Calculator myCalc;
     
     [SetUp]
     public void Setup()
@@ -17,9 +19,8 @@ public class Pow_Pos_Test
     }
 
     [Test]
-    public void Test1()
+    public void DoubleToIntegerPower()
     {
-        Calculator myCalc = new Calculator();
         double actual = myCalc.Pow(x, y);
         Assert.That(actual,Is.EqualTo(expected));  
     }

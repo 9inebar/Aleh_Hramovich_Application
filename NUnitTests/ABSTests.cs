@@ -1,11 +1,13 @@
 using CSharpCalculator;
+using NUnit.Framework;
 
 namespace NUnitTests;
 
-public class ABS_Pos_Test
+public class ABSTests
 {
     double x;
     double expected;
+    Calculator myCalc;
     
     [SetUp]
     public void Setup()
@@ -15,9 +17,8 @@ public class ABS_Pos_Test
     }
 
     [Test]
-    public void Test1()
+    public void CheckAbsoluteValueOfNegativeNumber()
     {
-        Calculator myCalc = new Calculator();
         double actual = myCalc.Abs(x);
         Assert.That(actual,Is.EqualTo(expected));  
     }

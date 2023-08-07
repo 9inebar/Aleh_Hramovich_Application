@@ -1,11 +1,12 @@
 using CSharpCalculator;
+using Xunit;
 
 namespace xUnitTests;
 
-public class Sub_Pos_Test
+public class SubtractionTests
 {
     [Fact]
-    public void Substitute4Minus1Equals3()
+    public void DifferenceBetweenTwoNumbers()
     {
         double  x = 4;
         double y = 1;

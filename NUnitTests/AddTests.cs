@@ -1,25 +1,27 @@
 using CSharpCalculator;
+using NUnit.Framework;
 
 namespace NUnitTests;
 
-public class Sqrt_Pos_Test
+public class AddTests
 {
     double x;
     double y;
     double expected;
+    private Calculator myCalc;
     
     [SetUp]
     public void Setup()
     {
-        x = 49;
-        expected = 7;
+         x = 10;
+         y = 20;
+         expected = 30;
     }
 
     [Test]
     public void Test1()
     {
-        Calculator myCalc = new Calculator();
-        double actual = myCalc.Sqrt(x);
+        double actual = myCalc.Add(x, y);
         Assert.That(actual,Is.EqualTo(expected));  
     }
 }

@@ -1,8 +1,9 @@
 using CSharpCalculator;
+using Xunit;
 
 namespace xUnitTests;
 
-public class IsNegative_Pos_Test
+public class IsNegativeTests
 {
     [Fact]
     public void IsTenNegativeFalseExpectsTrue()
@@ -13,6 +14,5 @@ public class IsNegative_Pos_Test
         Calculator myCalc = new Calculator();
         bool actual = myCalc.isNegative(x);
         Assert.Equal(expected, actual);
-
     }
 }

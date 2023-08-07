@@ -1,26 +1,26 @@
 using CSharpCalculator;
+using NUnit.Framework;
 
 namespace NUnitTests;
 
-public class Mult_Pos_Test
+public class SqrtTests
 {
     double x;
     double y;
     double expected;
+    private Calculator myCalc;
     
     [SetUp]
     public void Setup()
     {
-        x = 2;
-        y = 2;
-        expected = 4;
+        x = 49;
+        expected = 7;
     }
 
     [Test]
-    public void Test1()
+    public void GetSquareOutOfNumber()
     {
-        Calculator myCalc = new Calculator();
-        double actual = myCalc.Multiply(x, y);
+        double actual = myCalc.Sqrt(x);
         Assert.That(actual,Is.EqualTo(expected));  
     }
 }

@@ -1,11 +1,12 @@
 using CSharpCalculator;
+using Xunit;
 
 namespace xUnitTests;
 
-public class AddPositiveTest
+public class AdditionTest
 {
     [Fact]
-    public void Add10Plus20Expect30()
+    public void Add1XPlusYPositive()
     {
         double  x = 10;
         double  y = 20;

@@ -1,11 +1,12 @@
 using CSharpCalculator;
+using Xunit;
 
 namespace xUnitTests;
 
-public class SQR_Pos_Test
+public class SquareTests
 {
     [Fact]
-    public void Square36Expected6()
+    public void GetSquareFromNumberPositive()
     {
         double x = 36;
         double expected = 6;

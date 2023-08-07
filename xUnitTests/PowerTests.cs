@@ -1,11 +1,12 @@
 using CSharpCalculator;
+using Xunit;
 
 namespace xUnitTests;
 
-public class Power_Pos_Test
+public class PowerTests
 {
     [Fact]
-    public void FiveToTwoPowerExpect25()
+    public void NumberToPowerPositive()
     {
         int  x = 5;
         double  y = 2;

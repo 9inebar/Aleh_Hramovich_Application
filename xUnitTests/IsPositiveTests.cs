@@ -1,11 +1,12 @@
 using CSharpCalculator;
+using Xunit;
 
 namespace xUnitTests;
 
-public class IsPositive_Pos_Test
+public class IsPositiveTests
 {
     [Fact]
-    public void Is7PositiveExpectsTrue()
+    public void IsNumberPositiveExpectsTrue()
     {
         double  x = 5;
         bool expected = true;

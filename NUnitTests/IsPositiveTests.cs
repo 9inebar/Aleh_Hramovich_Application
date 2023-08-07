@@ -1,11 +1,13 @@
 using CSharpCalculator;
+using NUnit.Framework;
 
 namespace NUnitTests;
 
-public class IsPositive_Pos_Test
+public class IsPositiveTests
 {
     object x;
     bool expected;
+    private Calculator myCalc;
     
     [SetUp]
     public void Setup()
@@ -15,9 +17,8 @@ public class IsPositive_Pos_Test
     }
 
     [Test]
-    public void Test1()
+    public void CheckIfNegativeNumberIsFalsePositiveTrue()
     {
-        Calculator myCalc = new Calculator();
         bool actual = myCalc.isPositive(x);
         Assert.That(actual,Is.EqualTo(expected));  
     }

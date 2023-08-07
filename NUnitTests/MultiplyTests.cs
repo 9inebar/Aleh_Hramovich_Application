@@ -1,26 +1,27 @@
 using CSharpCalculator;
+using NUnit.Framework;
 
 namespace NUnitTests;
 
-public class Add_Pos_Test
+public class MultiplyTests
 {
     double x;
     double y;
     double expected;
+    private Calculator myCalc;
     
     [SetUp]
     public void Setup()
     {
-         x = 10;
-         y = 20;
-         expected = 30;
+        x = 2;
+        y = 2;
+        expected = 4;
     }
 
     [Test]
-    public void Test1()
+    public void MultiplyTwoNumbers()
     {
-        Calculator myCalc = new Calculator();
-        double actual = myCalc.Add(x, y);
+        double actual = myCalc.Multiply(x, y);
         Assert.That(actual,Is.EqualTo(expected));  
     }
 }
