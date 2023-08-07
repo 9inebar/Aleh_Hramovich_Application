@@ -5,6 +5,7 @@ namespace Selenium_Basics;
 public class SeleniumTests
 {
     private IWebDriver driver { get; set; }
+    protected string epamUrl = "https://www.epam.com/";
 
     [SetUp]
     public void SetupBrowser()
@@ -13,48 +14,38 @@ public class SeleniumTests
         options.BinaryLocation = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome";
         driver = new ChromeDriver(options);
     }
-
-    [Test]
-    public void CheckThatCorrectLandingPageDisplayed()
-    {
-        var epamUrl = "https://www.epam.com/";
-        driver.Manage().Window.Maximize();
-        driver.Navigate().GoToUrl(epamUrl);
-        Assert.That(driver.Url,Is.EqualTo(epamUrl), "Landing page is not displayed correctly");
-    }
-
+    
     [TearDown]
     public void TearDown()
     {
         driver.Quit();
     }
-    
+
     [Test]
-    public void CheckThatGoBackToPreviousPageWorks()
+    public void CheckThatCorrectLandingPageDisplayed()
     {
-        var epamUrl = "https://www.epam.com/";
-        var howUrl = "https://www.epam.com/how-we-do-it";
-        
         driver.Manage().Window.Maximize();
         driver.Navigate().GoToUrl(epamUrl);
+        Assert.That(driver.Url,Is.EqualTo(epamUrl), "Landing page is not displayed correctly");
+    }
+    
+    [Test]
+    public void CheckNavigationToPreviousPage()
+    {
+        var howUrl = "https://www.epam.com/how-we-do-it";
+        var ourWorkUrl = "https://www.epam.com/our-work";
+        
+        driver.Manage().Window.Maximize();
         driver.Navigate().GoToUrl(howUrl);
-        driver.Navigate().GoToUrl("https://www.epam.com/our-work");
+        driver.Navigate().GoToUrl(ourWorkUrl);
         driver.Navigate().Refresh();
         driver.Navigate().Back();
         Assert.That(driver.Url,Is.EqualTo(howUrl), "Navigation back works incorrectly");
-    }
-
-    [TearDown]
-    public void TearDown2()
-    {
-        driver.Quit();
     }
     
     [Test]
     public void CreateAndFindSimpleLocators()
     {
-        var epamUrl = "https://www.epam.com/";
-
         driver.Manage().Window.Maximize();
         driver.Navigate().GoToUrl(epamUrl);
 
@@ -64,26 +55,12 @@ public class SeleniumTests
         driver.FindElement(By.XPath("//*[@name='vendor-search-handler']"));
         driver.FindElement(By.XPath("//nav[@class='hamburger-menu__dropdown']"));
     }
-
-    [TearDown]
-    public void TearDown3()
-    {
-        driver.Quit();
-    }
     
     [Test]
     public void FindContactUsButton()
     {
-        var epamUrl = "https://www.epam.com/";
-
         driver.Manage().Window.Maximize();
         driver.Navigate().GoToUrl(epamUrl);
         driver.FindElement(By.XPath("//*[@class='hamburger-menu__item cta-button-menu-item']//span[@class='cta-button__text']"));
-    }
-
-    [TearDown]
-    public void TearDown4()
-    {
-        driver.Quit();
     }
 }
