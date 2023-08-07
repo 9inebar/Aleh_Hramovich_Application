@@ -3,7 +3,21 @@ using NUnit.Framework;
 
 namespace NUnitTests;
 
+<<<<<<< HEAD
+<<<<<<<< HEAD:NUnitTests/PowerTests.cs
 public class PowerTests
+========
+=======
+>>>>>>> 2e9e889 (unit testing frameworks updates)
+<<<<<<<< HEAD:NUnitTests/PowTest.cs
+public class PowTest
+========
+public class PowerTests
+>>>>>>>> ef2ec11 (unit testing framework corrections):NUnitTests/PowerTests.cs
+<<<<<<< HEAD
+>>>>>>>> 2e9e889 (unit testing frameworks updates):NUnitTests/PowTest.cs
+=======
+>>>>>>> 2e9e889 (unit testing frameworks updates)
 {
     int x;
     double y;

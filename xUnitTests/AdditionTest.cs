@@ -1,12 +1,11 @@
 using CSharpCalculator;
-using Xunit;
 
 namespace xUnitTests;
 
-public class AdditionTest
+public class AddPositiveTest
 {
     [Fact]
-    public void Add1XPlusYPositive()
+    public void AddXPlusY()
     {
         double  x = 10;
         double  y = 20;
@@ -14,7 +13,6 @@ public class AdditionTest
 
         Calculator myCalc = new Calculator();
         double actual = myCalc.Add(x, y);
-        Assert.Equal(expected, actual); 
-        
+        Assert.Equal(expected, actual);
     }
 }
