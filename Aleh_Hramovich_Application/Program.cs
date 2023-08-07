@@ -20,5 +20,5 @@ double alehTest = 22.24;
 Console.WriteLine(alehTest);
 
 Console.WriteLine("Enter your name...");
-string myName = Console.ReadLine();
+string myName = Console.ReadLine()!;
 Console.WriteLine("My name is "+ myName);
