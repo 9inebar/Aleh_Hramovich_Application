@@ -109,5 +109,4 @@ public class EpamNavigationTests2
         driver.FindElement(By.XPath("//li[@class='hamburger-menu__item item--collapsed'][last()]"));
         driver.FindElement(By.XPath("//div[@class='header-container iparsys parsys']//child::*[@class='header-ui-23']"));
     }
-    
 }
