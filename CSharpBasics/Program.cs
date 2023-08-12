@@ -2,7 +2,7 @@
 
 new Homework2().Task_7();
 
-/*class Homework {
+class Homework {
     public void Task_1()
     {
         int num1 = 11;
@@ -42,7 +42,7 @@ new Homework2().Task_7();
 
     public void Task_4()
     {
-        string subbie = Console.ReadLine();
+        string subbie = Console.ReadLine()!;
         string subbie2 = subbie.Substring(2);
         string subbie3 = subbie.Substring(0,3);
         string?[] arrayOfSubbies = { subbie, subbie2, subbie3 };
@@ -53,16 +53,16 @@ new Homework2().Task_7();
     {
         string verse = Console.ReadLine()!; //Not too strong, please and one lump of sugar. I like my tea rather sweet, but my husband prefers his without sugar.
         string opposite = Console.ReadLine()!; //sour
-        Console.WriteLine(verse.Replace("sweet", "sour"));
+        Console.WriteLine(verse.Replace(verse, opposite));
     }
 
     public void Task_6()
     {
-        string low = Console.ReadLine(); //a
+        string low = Console.ReadLine()!; //a
         Console.WriteLine(low.ToUpper()); //A
 
     }
-}*/
+}
 
 class Homework2
 {
@@ -100,8 +100,8 @@ class Homework2
     {
         Console.WriteLine("Enter your age ...");
         string input = Console.ReadLine()!;
-        bool isParsingSucess = int.TryParse(input, out int age);
-        if (isParsingSucess == true)
+        bool isParsingSuccess = int.TryParse(input, out int age);
+        if (isParsingSuccess)
         {
             Console.WriteLine("Success");
             Console.WriteLine("Your age is {0}", age);
@@ -140,18 +140,18 @@ class Homework2
         double forthGoodPrice = 7.63;
         double fifthGoodPrice = 6.05;
 
-        double TotalPrice = firstGoodCount * firstGoodPrice + secondGoodCount * secondGoodPrice +
+        double totalPrice = firstGoodCount * firstGoodPrice + secondGoodCount * secondGoodPrice +
                             thirdGoodCount * thirdGoodPrice + forthGoodCount * forthGoodPrice +
                             fifthGoodCount * fifthGoodPrice;
-        double TotalPriceWithDiscount = Double.Round(TotalPrice * 0.15, 2);
+        double totalPriceWithDiscount = Double.Round(totalPrice * 0.15, 2);
         Console.WriteLine("Name   "+"Count  "+"Price  ");
         Console.WriteLine(firstGood +"    "+ firstGoodCount + "    " + firstGoodPrice);
         Console.WriteLine(secondGood +"     "+ secondGoodCount + "    " + secondGoodPrice);
         Console.WriteLine(thirdGood +"     "+ thirdGoodCount + "    " + thirdGoodPrice);
         Console.WriteLine(forthGood +"     "+ forthGoodCount + "    " + forthGoodPrice);
         Console.WriteLine(fifthGood +"      "+ fifthGoodCount + "    " + fifthGoodPrice);
-        Console.WriteLine("Total Price: "+TotalPrice + "$");
-        Console.WriteLine("Discount: " + TotalPriceWithDiscount + "$");
+        Console.WriteLine("Total Price: "+totalPrice + "$");
+        Console.WriteLine("Discount: " + totalPriceWithDiscount + "$");
         
     }
 
@@ -222,7 +222,7 @@ class Homework2
     }
     public void Task_8(){
         int i = 123;
-        object o = (object)i; //explicit boxing
+        object o = i; //explicit boxing
         
         o = 123;
         i = (int)o;  // explicit unboxing
