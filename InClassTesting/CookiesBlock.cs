@@ -7,7 +7,7 @@ public class CookiesBlock
     private IWebDriver driver;
     public CookiesBlock(IWebDriver driver)
     {
-        driver = this.driver;
+        this.driver = driver;
     }
     public IWebElement acceptCookiesButton => driver.FindElement(By.Id("onetrust-accept-btn-handler"));
 }

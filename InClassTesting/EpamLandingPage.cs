@@ -8,7 +8,7 @@ public class EpamLandingPage
 
     public EpamLandingPage(IWebDriver driver)
     {
-        driver = this.driver;
+        this.driver = driver;
     }
     public IWebElement SearchButton => driver.FindElement(By.XPath("//*[@class='header-search__button header__icon']"));
     public SearchBlock EpamSearchBlock => new SearchBlock(driver);
