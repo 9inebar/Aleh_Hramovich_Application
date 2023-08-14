@@ -47,20 +47,27 @@ myCar4.FuelACar(FuelLiter6);
 
 //getters & setters
 Car myCar5 = new Car();
+//working getter
 Console.WriteLine($"My car's current mileage is {myCar5.Mileage}");
-myCar5.CurrentSpeed = 150; //can't be printed as doesn't have a GETTER
+
+//myCar5.Mileage = 300000; //error line
+
+//working getter
+Console.WriteLine(myCar5.CurrentSpeed = 150);
+
+//Console.WriteLine(myCar5.CurrentSpeed); //error line
 
 //calling static variable
 Car.EngineType = "Diesel";
 Console.WriteLine($"My car engine is now swapped to {Car.EngineType}");
 
 //calling static method
-Car.exhaustSound();
+Car.ExhaustSound();
 
 //calling static class first static method
-StaticClassHelper.ReprintCarColor(myCar5,  "white");
+CarHelper.ReprintCarColor(myCar5,  "white");
 Console.WriteLine($"My car's color is now {myCar5.Color}");
 
 // calling second static method
-StaticClassHelper.ChangeTyres(myCar5, "Michelin");
+CarHelper.ChangeTyres(myCar5, "Michelin");
 Console.WriteLine($"My car tyres are now updated to {myCar5.TyresBrand}");

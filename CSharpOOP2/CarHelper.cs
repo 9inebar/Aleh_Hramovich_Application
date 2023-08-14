@@ -1,7 +1,7 @@
 using System.Drawing;
 using CSharpOOP2;
 
-public static class StaticClassHelper
+public static class CarHelper
 {
     public static void ReprintCarColor(Car myCar, string color)
     {
