@@ -3,9 +3,10 @@ using OpenQA.Selenium.Chrome;
 
 namespace Selenium_Basics;
 
-public class EpamNavigationTests2
+public class EpamContentTextTests
 {
     private IWebDriver driver { get; set; }
+    private string epamUrl = "https://www.epam.com/";
 
     [SetUp]
     public void SetupBrowser()
@@ -13,6 +14,8 @@ public class EpamNavigationTests2
         var options = new ChromeOptions();
         options.BinaryLocation = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome";
         driver = new ChromeDriver(options);
+        driver.Manage().Window.Maximize();
+        driver.Navigate().GoToUrl(epamUrl);
     }
     
     [TearDown]
@@ -24,31 +27,24 @@ public class EpamNavigationTests2
     [Test]
     public void CheckThatListOfCountriesContainsAmerEMEAandAPAC()
     {
-        var epamUrl = "https://www.epam.com/";
-
-        driver.Manage().Window.Maximize();
-        driver.Navigate().GoToUrl(epamUrl);
-        driver.FindElement(By.XPath("//*[text()='Careers']//ancestor::*[@class='top-navigation__item-text']")).Click();
+        driver.FindElement(By.XPath("//a[@href='/careers']//parent::span[@class='top-navigation__item-text']")).Click();
         driver.FindElement(By.XPath("(//*[name()='use'])[10]")).Click();
-        bool Americas = driver.FindElement(By.XPath("//a[@data-item='0']")).Displayed;
-        bool EMEA = driver.FindElement(By.XPath("//a[@data-item='1']")).Displayed;
-        bool APAC = driver.FindElement(By.XPath("//a[@data-item='2']")).Displayed;
+        bool isAmericasDisplayed = driver.FindElement(By.XPath("//a[@data-item='0']")).Displayed;
+        bool isEMEADisplayed = driver.FindElement(By.XPath("//a[@data-item='1']")).Displayed;
+        bool isAPACDisplayed = driver.FindElement(By.XPath("//a[@data-item='2']")).Displayed;
         
-        Assert.True(Americas, "not displayed");
-        Assert.True(EMEA, "not displayed");
-        Assert.True(APAC, "not displayed");
+        Assert.True(isAmericasDisplayed, "Americas element not displayed");
+        Assert.True(isEMEADisplayed, "EMEA element not displayed");
+        Assert.True(isAPACDisplayed, "APAC not displayed");
     }
     
     [Test]
     public void CheckThatUrlToSearchContainsMyText()
     {
-        var epamUrl = "https://www.epam.com/";
-        var searchUrl = "https://www.epam.com/search?q=Automation";
         var keyWord = "Automation";
-            
-        driver.Manage().Window.Maximize();
-        driver.Navigate().GoToUrl(epamUrl);
-        driver.FindElement(By.XPath("//div[@class='header-search-ui header-search-ui-23 header__control']")).Click();
+        var searchUrl = "https://www.epam.com/search?q=Automation";
+        
+        driver.FindElement(By.XPath("//span[@class='search-icon dark-iconheader-search__search-icon']")).Click();
         Thread.Sleep(1000);
         driver.FindElement(By.XPath("//input[@id='new_form_search']")).Click();
         driver.FindElement(By.XPath("//input[@id='new_form_search']")).SendKeys(keyWord);
@@ -56,26 +52,21 @@ public class EpamNavigationTests2
         
         Assert.That(driver.Url,Is.EqualTo(searchUrl), "The url is wrong");
 
-        var ListOfArticles = driver.FindElements(By.XPath("//article")).ToList().Take(5);
-        var ArticlesToLower = ListOfArticles.Select(article=>article.Text.ToLower());
-        string Output = string.Join(",", ArticlesToLower);
-        foreach (var article in ArticlesToLower)
-        {
-            var a = article.Contains(keyWord.ToLower());
-        }
-        Assert.That(ArticlesToLower.All(article => article.Contains(keyWord.ToLower())),Is.True, $"Search criteria is not met: {Output}");
+        var listOfArticles = driver.FindElements(By.XPath("//article")).ToList().Take(5);
+        var articlesToLower = listOfArticles.Select(article=>article.Text.ToLower());
+        var expectedResult = keyWord.ToLower();
+        string Output = string.Join(",", articlesToLower);
+        Assert.That(articlesToLower.All(article => article.Contains(expectedResult)),Is.True, $"The first 5 articles don't contain entered text : {Output}");
     }
     
     [Test]
     public void CheckThatTitleOfTheOpenedPageEqualsSearchTitle()
     {
-        var epamUrl = "https://www.epam.com/";
-        var searchUrl = "https://www.epam.com/search?q=Business+Analysis";
         var keyWord = "Business Analysis";
-            
-        driver.Manage().Window.Maximize();
-        driver.Navigate().GoToUrl(epamUrl);
-        driver.FindElement(By.XPath("//div[@class='header-search-ui header-search-ui-23 header__control']")).Click();
+        var searchUrl = "https://www.epam.com/search?q=Business+Analysis";
+        
+        var searchButton = driver.FindElement(By.XPath("//span[@class='search-icon dark-iconheader-search__search-icon']"));
+        searchButton.Click();
         Thread.Sleep(2000);
         driver.FindElement(By.XPath("//input[@id='new_form_search']")).Click();
         driver.FindElement(By.XPath("//input[@id='new_form_search']")).SendKeys(keyWord);
@@ -84,9 +75,11 @@ public class EpamNavigationTests2
         Assert.That(driver.Url,Is.EqualTo(searchUrl), "The url is wrong");
         
         var firstArticleTitle = driver.FindElement(By.XPath("//a[@class='search-results__title-link'][1]")).Text;
-        driver.FindElement(By.XPath("//button[@id='onetrust-accept-btn-handler']")).Click();
+        var acceptCookies = driver.FindElement(By.XPath("//button[@id='onetrust-accept-btn-handler']"));
+        acceptCookies.Click();
         Thread.Sleep(1000);
-        driver.FindElement(By.XPath("//a[@class='search-results__title-link'][1]")).Click();
+        var searchResults = driver.FindElement(By.XPath("//a[@class='search-results__title-link']"));
+        searchResults.Click();
         var openedArticleTitle = driver.FindElement(By.XPath("//span[@class='museo-sans-light']")).Text;
         Assert.That(firstArticleTitle, Is.EqualTo(openedArticleTitle), "Titles are different");
     }
@@ -94,11 +87,6 @@ public class EpamNavigationTests2
     [Test]
     public void WriteXPathLocators()
     {
-        var epamUrl = "https://www.epam.com/";
-        
-        driver.Manage().Window.Maximize();
-        driver.Navigate().GoToUrl(epamUrl);
-        
         driver.FindElement(By.XPath("//*[contains (@class, 'cookie')]//child::*[@class='iparys_inherited']"));
         driver.FindElement(By.XPath("//div[@id='wrapper']//following-sibling::*[@class='header-container iparsys parsys']"));
         driver.FindElement(By.XPath("//div[@class='header-search__panel']//parent::h3"));
