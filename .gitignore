@@ -187,6 +187,10 @@ Icon?
 
 # Visual Studio 2014 CTP
 **/*.sln.ide
+.sln
+.props
+.info
+
 
 # Visual Studio temp something
 .vs/
