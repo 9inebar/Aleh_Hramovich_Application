@@ -53,6 +53,8 @@ public class Car
         this.color = color;
     }
 
+    public string color { get; set; }
+
     /*public void FuelACar(double litersToAdd)
     {
         double newFuelLevel = fuelLevel + litersToAdd;

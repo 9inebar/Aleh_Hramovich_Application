@@ -1,4 +1,3 @@
-using System.Drawing;
 using CSharpOOP2;
 
 public static class CarHelper
