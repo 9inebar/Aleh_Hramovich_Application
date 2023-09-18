@@ -39,7 +39,7 @@ public class SeleniumAdvancedTests
         driver.Manage().Window.Maximize();
         driver.Navigate().GoToUrl(epamUrl);
         action.MoveToElement(driver.FindElement(By.XPath("//*[text()='Careers']//ancestor::*[@class='top-navigation__item-link js-op']"))).Build().Perform();
-        Thread.Sleep(3000);
+        waiter.Until(d=>d.FindElement(By.XPath("//a[@href='/careers/job-listings']//parent::li[contains(@class, 'top')]")).Enabled);
         action.MoveToElement(driver.FindElement(By.XPath("//a[@href='/careers/job-listings']//parent::li[contains(@class, 'top')]"))).Click().Build().Perform();
         Assert.That(driver.Url,Is.EqualTo(jobListingsUrl), "the opened page has wrong url");
     }
@@ -55,7 +55,7 @@ public class SeleniumAdvancedTests
         waiter.Until(d => d.FindElement(By.XPath("//nav[@class='location-selector__panel']")));
         var listOfActualLanguages =
             driver.FindElements(By.XPath("//li[@class='location-selector__item']")).ToList().Select(l => l.GetAttribute("outerText"));
-        CollectionAssert.AreEquivalent(listOfLanguages,listOfActualLanguages);
+        CollectionAssert.AreEquivalent(listOfLanguages,listOfActualLanguages, "the list of languages is not correct");
     }
 
     [Test]
@@ -71,6 +71,6 @@ public class SeleniumAdvancedTests
         jse.ExecuteScript("window.scrollTo(0, document.body.scrollHeight)");
         waiter.Until(d => d.FindElement(By.XPath("//article[@class='search-results__item'][11]")));
         var listOfArticlesAfterViewMore = driver.FindElements(By.XPath("//article")).Count;
-        Assert.That(listOfArticlesAfterViewMore,Is.EqualTo(numberOfArticles));
+        Assert.That(listOfArticlesAfterViewMore,Is.EqualTo(numberOfArticles), "the number of articles is wrong");
     }
 }
