@@ -16,6 +16,9 @@ public class EpamContentTextTests
         driver = new ChromeDriver(options);
         driver.Manage().Window.Maximize();
         driver.Navigate().GoToUrl(epamUrl);
+        IWebElement AcceptAllCookiesButton = driver.FindElement(By.Id("onetrust-accept-btn-handler"));
+        Thread.Sleep(3000);
+        AcceptAllCookiesButton.Click();
     }
     
     [TearDown]
@@ -27,7 +30,7 @@ public class EpamContentTextTests
     [Test]
     public void CheckThatListOfCountriesContainsAmerEMEAandAPAC()
     {
-        driver.FindElement(By.XPath("//a[@href='/careers']//parent::span[@class='top-navigation__item-text']")).Click();
+        driver.FindElement(By.XPath("//a[@ href='/careers']//parent::span")).Click();
         driver.FindElement(By.XPath("(//*[name()='use'])[10]")).Click();
         bool isAmericasDisplayed = driver.FindElement(By.XPath("//a[@data-item='0']")).Displayed;
         bool isEMEADisplayed = driver.FindElement(By.XPath("//a[@data-item='1']")).Displayed;
@@ -35,7 +38,7 @@ public class EpamContentTextTests
         
         Assert.True(isAmericasDisplayed, "Americas element not displayed");
         Assert.True(isEMEADisplayed, "EMEA element not displayed");
-        Assert.True(isAPACDisplayed, "APAC not displayed");
+        Assert.True(isAPACDisplayed, "APAC element not displayed");
     }
     
     [Test]
@@ -55,8 +58,8 @@ public class EpamContentTextTests
         var listOfArticles = driver.FindElements(By.XPath("//article")).ToList().Take(5);
         var articlesToLower = listOfArticles.Select(article=>article.Text.ToLower());
         var expectedResult = keyWord.ToLower();
-        string Output = string.Join(",", articlesToLower);
-        Assert.That(articlesToLower.All(article => article.Contains(expectedResult)),Is.True, $"The first 5 articles don't contain entered text : {Output}");
+        string output = string.Join(",", articlesToLower);
+        Assert.That(articlesToLower.All(article => article.Contains(expectedResult)),Is.True, $"The first 5 articles don't contain entered text : {output}");
     }
     
     [Test]
@@ -74,13 +77,11 @@ public class EpamContentTextTests
         
         Assert.That(driver.Url,Is.EqualTo(searchUrl), "The url is wrong");
         
-        var firstArticleTitle = driver.FindElement(By.XPath("//a[@class='search-results__title-link'][1]")).Text;
-        var acceptCookies = driver.FindElement(By.XPath("//button[@id='onetrust-accept-btn-handler']"));
-        acceptCookies.Click();
+        var firstArticleTitle = driver.FindElement(By.XPath("//a[@class='search-results__title-link']")).Text;
         Thread.Sleep(1000);
         var searchResults = driver.FindElement(By.XPath("//a[@class='search-results__title-link']"));
         searchResults.Click();
-        var openedArticleTitle = driver.FindElement(By.XPath("//span[@class='museo-sans-light']")).Text;
+        var openedArticleTitle = driver.FindElement(By.XPath("//span[@class='font-size-80-33']")).Text;
         Assert.That(firstArticleTitle, Is.EqualTo(openedArticleTitle), "Titles are different");
     }
 
@@ -90,8 +91,7 @@ public class EpamContentTextTests
         driver.FindElement(By.XPath("//*[contains (@class, 'cookie')]//child::*[@class='iparys_inherited']"));
         driver.FindElement(By.XPath("//div[@id='wrapper']//following-sibling::*[@class='header-container iparsys parsys']"));
         driver.FindElement(By.XPath("//div[@class='header-search__panel']//parent::h3"));
-        driver.FindElement(By.XPath("//button[@class='hamburger-menu__button']")).Click(); //for the next locator to appear
-        driver.FindElement(By.XPath("//li[@class='hamburger-menu__item item--collapsed'][last()]"));
+        driver.FindElement(By.Id("onetrust-accept-btn-handler"));
         driver.FindElement(By.XPath("//div[@class='header-container iparsys parsys']//child::*[@class='header-ui-23']"));
     }
 }

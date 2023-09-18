@@ -13,6 +13,12 @@ public class SeleniumTests
         options.BinaryLocation = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome";
         driver = new ChromeDriver(options);
     }
+    
+    [TearDown]
+    public void TearDown()
+    {
+        driver.Quit();
+    }
 
     [Test]
     public void CheckThatCorrectLandingPageDisplayed()
@@ -21,12 +27,6 @@ public class SeleniumTests
         driver.Manage().Window.Maximize();
         driver.Navigate().GoToUrl(epamUrl);
         Assert.That(driver.Url,Is.EqualTo(epamUrl), "Landing page is not displayed correctly");
-    }
-
-    [TearDown]
-    public void TearDown()
-    {
-        driver.Quit();
     }
     
     [Test]
@@ -43,12 +43,6 @@ public class SeleniumTests
         driver.Navigate().Back();
         Assert.That(driver.Url,Is.EqualTo(howUrl), "Navigation back works incorrectly");
     }
-
-    [TearDown]
-    public void TearDown2()
-    {
-        driver.Quit();
-    }
     
     [Test]
     public void CreateAndFindSimpleLocators()
@@ -64,12 +58,6 @@ public class SeleniumTests
         driver.FindElement(By.XPath("//*[@name='vendor-search-handler']"));
         driver.FindElement(By.XPath("//nav[@class='hamburger-menu__dropdown']"));
     }
-
-    [TearDown]
-    public void TearDown3()
-    {
-        driver.Quit();
-    }
     
     [Test]
     public void FindContactUsButton()
@@ -79,11 +67,5 @@ public class SeleniumTests
         driver.Manage().Window.Maximize();
         driver.Navigate().GoToUrl(epamUrl);
         driver.FindElement(By.XPath("//*[@class='hamburger-menu__item cta-button-menu-item']//span[@class='cta-button__text']"));
-    }
-
-    [TearDown]
-    public void TearDown4()
-    {
-        driver.Quit();
     }
 }
