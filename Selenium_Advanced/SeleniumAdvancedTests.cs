@@ -61,7 +61,7 @@ public class SeleniumAdvancedTests
     [Test]
     public void CheckThatThereAre20Elements()
     {
-        int numberOfArticles = 20;
+        var numberOfArticles = 20;
         driver.Manage().Window.Maximize();
         driver.Navigate().GoToUrl(epamUrl);
         driver.FindElement(By.XPath("//div[@class='header-search-ui header-search-ui-23 header__control']")).Click();
