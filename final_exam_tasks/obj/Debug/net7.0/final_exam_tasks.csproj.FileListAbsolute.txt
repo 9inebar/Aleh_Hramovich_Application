@@ -1,0 +1,15 @@
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/final_exam_tasks/bin/Debug/net7.0/final_exam_tasks
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/final_exam_tasks/bin/Debug/net7.0/final_exam_tasks.deps.json
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/final_exam_tasks/bin/Debug/net7.0/final_exam_tasks.runtimeconfig.json
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/final_exam_tasks/bin/Debug/net7.0/final_exam_tasks.dll
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/final_exam_tasks/bin/Debug/net7.0/final_exam_tasks.pdb
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/final_exam_tasks/obj/Debug/net7.0/final_exam_tasks.csproj.AssemblyReference.cache
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/final_exam_tasks/obj/Debug/net7.0/final_exam_tasks.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/final_exam_tasks/obj/Debug/net7.0/final_exam_tasks.AssemblyInfoInputs.cache
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/final_exam_tasks/obj/Debug/net7.0/final_exam_tasks.AssemblyInfo.cs
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/final_exam_tasks/obj/Debug/net7.0/final_exam_tasks.csproj.CoreCompileInputs.cache
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/final_exam_tasks/obj/Debug/net7.0/final_exam_tasks.dll
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/final_exam_tasks/obj/Debug/net7.0/refint/final_exam_tasks.dll
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/final_exam_tasks/obj/Debug/net7.0/final_exam_tasks.pdb
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/final_exam_tasks/obj/Debug/net7.0/final_exam_tasks.genruntimeconfig.cache
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/final_exam_tasks/obj/Debug/net7.0/ref/final_exam_tasks.dll
