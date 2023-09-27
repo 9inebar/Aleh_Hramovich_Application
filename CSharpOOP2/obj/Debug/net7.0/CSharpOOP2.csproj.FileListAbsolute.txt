@@ -1,0 +1,5 @@
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpOOP2/obj/Debug/net7.0/CSharpOOP2.csproj.AssemblyReference.cache
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpOOP2/obj/Debug/net7.0/CSharpOOP2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpOOP2/obj/Debug/net7.0/CSharpOOP2.AssemblyInfoInputs.cache
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpOOP2/obj/Debug/net7.0/CSharpOOP2.AssemblyInfo.cs
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpOOP2/obj/Debug/net7.0/CSharpOOP2.csproj.CoreCompileInputs.cache

@@ -32,6 +32,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Selenium_Basics", "Selenium
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Selenium_Advanced", "Selenium_Advanced\Selenium_Advanced.csproj", "{323A87C1-51BA-4C3C-AC3B-3F451CE4262D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "final_exam_tasks", "final_exam_tasks\final_exam_tasks.csproj", "{0EF089A7-267A-460B-B07F-DACB61AFA202}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -102,5 +104,9 @@ Global
 		{323A87C1-51BA-4C3C-AC3B-3F451CE4262D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{323A87C1-51BA-4C3C-AC3B-3F451CE4262D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{323A87C1-51BA-4C3C-AC3B-3F451CE4262D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EF089A7-267A-460B-B07F-DACB61AFA202}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EF089A7-267A-460B-B07F-DACB61AFA202}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EF089A7-267A-460B-B07F-DACB61AFA202}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EF089A7-267A-460B-B07F-DACB61AFA202}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -1,0 +1,15 @@
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpCollections1/bin/Debug/net7.0/CSharpCollections1
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpCollections1/bin/Debug/net7.0/CSharpCollections1.deps.json
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpCollections1/bin/Debug/net7.0/CSharpCollections1.runtimeconfig.json
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpCollections1/bin/Debug/net7.0/CSharpCollections1.dll
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpCollections1/bin/Debug/net7.0/CSharpCollections1.pdb
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpCollections1/obj/Debug/net7.0/CSharpCollections1.csproj.AssemblyReference.cache
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpCollections1/obj/Debug/net7.0/CSharpCollections1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpCollections1/obj/Debug/net7.0/CSharpCollections1.AssemblyInfoInputs.cache
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpCollections1/obj/Debug/net7.0/CSharpCollections1.AssemblyInfo.cs
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpCollections1/obj/Debug/net7.0/CSharpCollections1.csproj.CoreCompileInputs.cache
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpCollections1/obj/Debug/net7.0/CSharpCollections1.dll
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpCollections1/obj/Debug/net7.0/refint/CSharpCollections1.dll
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpCollections1/obj/Debug/net7.0/CSharpCollections1.pdb
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpCollections1/obj/Debug/net7.0/CSharpCollections1.genruntimeconfig.cache
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpCollections1/obj/Debug/net7.0/ref/CSharpCollections1.dll

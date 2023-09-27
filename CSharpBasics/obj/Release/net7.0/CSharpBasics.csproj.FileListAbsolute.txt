@@ -1,0 +1,15 @@
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpBasics/obj/Release/net7.0/CSharpBasics.csproj.AssemblyReference.cache
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpBasics/obj/Release/net7.0/CSharpBasics.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpBasics/obj/Release/net7.0/CSharpBasics.AssemblyInfoInputs.cache
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpBasics/obj/Release/net7.0/CSharpBasics.AssemblyInfo.cs
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpBasics/obj/Release/net7.0/CSharpBasics.csproj.CoreCompileInputs.cache
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpBasics/bin/Release/net7.0/CSharpBasics
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpBasics/bin/Release/net7.0/CSharpBasics.deps.json
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpBasics/bin/Release/net7.0/CSharpBasics.runtimeconfig.json
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpBasics/bin/Release/net7.0/CSharpBasics.dll
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpBasics/bin/Release/net7.0/CSharpBasics.pdb
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpBasics/obj/Release/net7.0/CSharpBasics.dll
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpBasics/obj/Release/net7.0/refint/CSharpBasics.dll
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpBasics/obj/Release/net7.0/CSharpBasics.pdb
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpBasics/obj/Release/net7.0/CSharpBasics.genruntimeconfig.cache
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpBasics/obj/Release/net7.0/ref/CSharpBasics.dll

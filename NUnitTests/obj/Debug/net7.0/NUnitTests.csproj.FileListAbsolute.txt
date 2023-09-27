@@ -1,0 +1,5 @@
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/NUnitTests/obj/Debug/net7.0/NUnitTests.csproj.AssemblyReference.cache
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/NUnitTests/obj/Debug/net7.0/NUnitTests.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/NUnitTests/obj/Debug/net7.0/NUnitTests.AssemblyInfoInputs.cache
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/NUnitTests/obj/Debug/net7.0/NUnitTests.AssemblyInfo.cs
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/NUnitTests/obj/Debug/net7.0/NUnitTests.csproj.CoreCompileInputs.cache

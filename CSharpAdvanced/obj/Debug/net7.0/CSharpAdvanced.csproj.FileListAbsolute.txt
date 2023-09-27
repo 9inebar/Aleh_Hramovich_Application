@@ -1,0 +1,15 @@
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpAdvanced/bin/Debug/net7.0/CSharpAdvanced
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpAdvanced/bin/Debug/net7.0/CSharpAdvanced.deps.json
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpAdvanced/bin/Debug/net7.0/CSharpAdvanced.runtimeconfig.json
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpAdvanced/bin/Debug/net7.0/CSharpAdvanced.dll
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpAdvanced/bin/Debug/net7.0/CSharpAdvanced.pdb
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpAdvanced/obj/Debug/net7.0/CSharpAdvanced.csproj.AssemblyReference.cache
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpAdvanced/obj/Debug/net7.0/CSharpAdvanced.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpAdvanced/obj/Debug/net7.0/CSharpAdvanced.AssemblyInfoInputs.cache
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpAdvanced/obj/Debug/net7.0/CSharpAdvanced.AssemblyInfo.cs
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpAdvanced/obj/Debug/net7.0/CSharpAdvanced.csproj.CoreCompileInputs.cache
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpAdvanced/obj/Debug/net7.0/CSharpAdvanced.dll
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpAdvanced/obj/Debug/net7.0/refint/CSharpAdvanced.dll
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpAdvanced/obj/Debug/net7.0/CSharpAdvanced.pdb
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpAdvanced/obj/Debug/net7.0/CSharpAdvanced.genruntimeconfig.cache
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpAdvanced/obj/Debug/net7.0/ref/CSharpAdvanced.dll

@@ -1,0 +1,15 @@
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/Factory Method/bin/Debug/net7.0/Factory Method
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/Factory Method/bin/Debug/net7.0/Factory Method.deps.json
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/Factory Method/bin/Debug/net7.0/Factory Method.runtimeconfig.json
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/Factory Method/bin/Debug/net7.0/Factory Method.dll
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/Factory Method/bin/Debug/net7.0/Factory Method.pdb
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/Factory Method/obj/Debug/net7.0/Factory Method.csproj.AssemblyReference.cache
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/Factory Method/obj/Debug/net7.0/Factory Method.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/Factory Method/obj/Debug/net7.0/Factory Method.AssemblyInfoInputs.cache
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/Factory Method/obj/Debug/net7.0/Factory Method.AssemblyInfo.cs
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/Factory Method/obj/Debug/net7.0/Factory Method.csproj.CoreCompileInputs.cache
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/Factory Method/obj/Debug/net7.0/Factory Method.dll
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/Factory Method/obj/Debug/net7.0/refint/Factory Method.dll
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/Factory Method/obj/Debug/net7.0/Factory Method.pdb
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/Factory Method/obj/Debug/net7.0/Factory Method.genruntimeconfig.cache
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/Factory Method/obj/Debug/net7.0/ref/Factory Method.dll

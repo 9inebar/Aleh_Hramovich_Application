@@ -1,0 +1,15 @@
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/ConsoleApp1CSharpLinq/bin/Debug/net7.0/ConsoleApp1CSharpLinq
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/ConsoleApp1CSharpLinq/bin/Debug/net7.0/ConsoleApp1CSharpLinq.deps.json
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/ConsoleApp1CSharpLinq/bin/Debug/net7.0/ConsoleApp1CSharpLinq.runtimeconfig.json
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/ConsoleApp1CSharpLinq/bin/Debug/net7.0/ConsoleApp1CSharpLinq.dll
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/ConsoleApp1CSharpLinq/bin/Debug/net7.0/ConsoleApp1CSharpLinq.pdb
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/ConsoleApp1CSharpLinq/obj/Debug/net7.0/ConsoleApp1CSharpLinq.csproj.AssemblyReference.cache
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/ConsoleApp1CSharpLinq/obj/Debug/net7.0/ConsoleApp1CSharpLinq.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/ConsoleApp1CSharpLinq/obj/Debug/net7.0/ConsoleApp1CSharpLinq.AssemblyInfoInputs.cache
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/ConsoleApp1CSharpLinq/obj/Debug/net7.0/ConsoleApp1CSharpLinq.AssemblyInfo.cs
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/ConsoleApp1CSharpLinq/obj/Debug/net7.0/ConsoleApp1CSharpLinq.csproj.CoreCompileInputs.cache
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/ConsoleApp1CSharpLinq/obj/Debug/net7.0/ConsoleApp1CSharpLinq.dll
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/ConsoleApp1CSharpLinq/obj/Debug/net7.0/refint/ConsoleApp1CSharpLinq.dll
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/ConsoleApp1CSharpLinq/obj/Debug/net7.0/ConsoleApp1CSharpLinq.pdb
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/ConsoleApp1CSharpLinq/obj/Debug/net7.0/ConsoleApp1CSharpLinq.genruntimeconfig.cache
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/ConsoleApp1CSharpLinq/obj/Debug/net7.0/ref/ConsoleApp1CSharpLinq.dll

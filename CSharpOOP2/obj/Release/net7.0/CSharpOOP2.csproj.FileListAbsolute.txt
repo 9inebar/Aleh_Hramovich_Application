@@ -1,0 +1,15 @@
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpOOP2/obj/Release/net7.0/CSharpOOP2.csproj.AssemblyReference.cache
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpOOP2/obj/Release/net7.0/CSharpOOP2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpOOP2/obj/Release/net7.0/CSharpOOP2.AssemblyInfoInputs.cache
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpOOP2/obj/Release/net7.0/CSharpOOP2.AssemblyInfo.cs
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpOOP2/obj/Release/net7.0/CSharpOOP2.csproj.CoreCompileInputs.cache
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpOOP2/bin/Release/net7.0/CSharpOOP2
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpOOP2/bin/Release/net7.0/CSharpOOP2.deps.json
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpOOP2/bin/Release/net7.0/CSharpOOP2.runtimeconfig.json
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpOOP2/bin/Release/net7.0/CSharpOOP2.dll
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpOOP2/bin/Release/net7.0/CSharpOOP2.pdb
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpOOP2/obj/Release/net7.0/CSharpOOP2.dll
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpOOP2/obj/Release/net7.0/refint/CSharpOOP2.dll
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpOOP2/obj/Release/net7.0/CSharpOOP2.pdb
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpOOP2/obj/Release/net7.0/CSharpOOP2.genruntimeconfig.cache
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/CSharpOOP2/obj/Release/net7.0/ref/CSharpOOP2.dll

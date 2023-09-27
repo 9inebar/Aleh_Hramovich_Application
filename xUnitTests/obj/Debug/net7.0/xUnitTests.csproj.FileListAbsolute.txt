@@ -1,0 +1,5 @@
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/xUnitTests/obj/Debug/net7.0/xUnitTests.csproj.AssemblyReference.cache
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/xUnitTests/obj/Debug/net7.0/xUnitTests.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/xUnitTests/obj/Debug/net7.0/xUnitTests.AssemblyInfoInputs.cache
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/xUnitTests/obj/Debug/net7.0/xUnitTests.AssemblyInfo.cs
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/xUnitTests/obj/Debug/net7.0/xUnitTests.csproj.CoreCompileInputs.cache

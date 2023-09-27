@@ -1,0 +1,15 @@
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/Decorator/bin/Debug/net7.0/Decorator
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/Decorator/bin/Debug/net7.0/Decorator.deps.json
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/Decorator/bin/Debug/net7.0/Decorator.runtimeconfig.json
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/Decorator/bin/Debug/net7.0/Decorator.dll
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/Decorator/bin/Debug/net7.0/Decorator.pdb
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/Decorator/obj/Debug/net7.0/Decorator.csproj.AssemblyReference.cache
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/Decorator/obj/Debug/net7.0/Decorator.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/Decorator/obj/Debug/net7.0/Decorator.AssemblyInfoInputs.cache
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/Decorator/obj/Debug/net7.0/Decorator.AssemblyInfo.cs
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/Decorator/obj/Debug/net7.0/Decorator.csproj.CoreCompileInputs.cache
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/Decorator/obj/Debug/net7.0/Decorator.dll
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/Decorator/obj/Debug/net7.0/refint/Decorator.dll
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/Decorator/obj/Debug/net7.0/Decorator.pdb
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/Decorator/obj/Debug/net7.0/Decorator.genruntimeconfig.cache
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/Decorator/obj/Debug/net7.0/ref/Decorator.dll

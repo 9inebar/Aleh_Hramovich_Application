@@ -1,0 +1,69 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=_002FUsers_002Falehhramovich_002FDownloads_002FCalculator1_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;
+  &lt;Assembly Path="/Users/alehhramovich/Downloads/Calculator1.dll" /&gt;
+&lt;/AssemblyExplorer&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=3b39e5fe_002Dccfe_002D4b4d_002Dbb81_002D1e8d4a0ea847/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="HoverOverCareerMenuTest #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::7D13AA12-6ED4-4102-B3FC-167BEC395553::net7.0::Selenium_Basics.EpamContentTextTests.CheckThatListOfCountriesContainsAmerEMEAandAPAC&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::323A87C1-51BA-4C3C-AC3B-3F451CE4262D::net7.0::Selenium_Advanced.SeleniumAdvancedTests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=7e35062a_002D8502_002D4d75_002Da0bc_002Df2393ca5d7db/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from &amp;lt;MSTests&amp;gt;" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;Or&gt;
+    &lt;Project Location="/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/MSTests" Presentation="&amp;lt;MSTests&amp;gt;" /&gt;
+    &lt;ProjectFile&gt;394746B8-E621-44A8-B523-A549589CF767/f:Add_Pos_Test.cs&lt;/ProjectFile&gt;
+    &lt;TestAncestor&gt;
+      &lt;TestId&gt;NUnit3x::394746B8-E621-44A8-B523-A549589CF767::net7.0::NUnitTests.SUB_Neg_Test.Test1&lt;/TestId&gt;
+      &lt;TestId&gt;NUnit3x::394746B8-E621-44A8-B523-A549589CF767::net7.0::NUnitTests.Mult_Pos_Test.Test1&lt;/TestId&gt;
+      &lt;TestId&gt;NUnit3x::394746B8-E621-44A8-B523-A549589CF767::net7.0::NUnitTests.Div_Pos_Test.Test1&lt;/TestId&gt;
+      &lt;TestId&gt;NUnit3x::394746B8-E621-44A8-B523-A549589CF767::net7.0::NUnitTests.Sqrt_Pos_Test.Test1&lt;/TestId&gt;
+      &lt;TestId&gt;NUnit3x::394746B8-E621-44A8-B523-A549589CF767::net7.0::NUnitTests.Pow_Pos_Test.Test1&lt;/TestId&gt;
+      &lt;TestId&gt;NUnit3x::394746B8-E621-44A8-B523-A549589CF767::net7.0::NUnitTests.Pow_Pos_Test&lt;/TestId&gt;
+      &lt;TestId&gt;NUnit3x::394746B8-E621-44A8-B523-A549589CF767::net7.0::NUnitTests.ABS_Pos_Test.Test1&lt;/TestId&gt;
+      &lt;TestId&gt;NUnit3x::7D13AA12-6ED4-4102-B3FC-167BEC395553::net7.0::SeleniumTest.Tests&lt;/TestId&gt;
+      &lt;TestId&gt;NUnit3x::394746B8-E621-44A8-B523-A549589CF767::net7.0::NUnitTests.SUB_Pos_Test.Test1&lt;/TestId&gt;
+      &lt;TestId&gt;NUnit3x::394746B8-E621-44A8-B523-A549589CF767::net7.0::NUnitTests.Div_Neg_Test.Test1&lt;/TestId&gt;
+      &lt;TestId&gt;NUnit3x::394746B8-E621-44A8-B523-A549589CF767::net7.0::NUnitTests.Sub_Neg_Test+SUB_Pos_Test.Test1&lt;/TestId&gt;
+      &lt;TestId&gt;NUnit3x::394746B8-E621-44A8-B523-A549589CF767::net7.0::NUnitTests.Sub_Neg_Test+SUB_Neg_Test.Test1&lt;/TestId&gt;
+      &lt;TestId&gt;NUnit3x::394746B8-E621-44A8-B523-A549589CF767::net7.0::NUnitTests.IsPositive_Pos_Test.Test1&lt;/TestId&gt;
+      &lt;TestId&gt;xUnit::BF6886CC-60DA-469D-834C-F1F2F8215043::net7.0::xUnitTests.AddPositiveTest.Add10Plus20Expect30&lt;/TestId&gt;
+      &lt;TestId&gt;xUnit::BF6886CC-60DA-469D-834C-F1F2F8215043::net7.0::xUnitTests.Division_Pos_Test.Divide27By9Expect3&lt;/TestId&gt;
+      &lt;TestId&gt;xUnit::BF6886CC-60DA-469D-834C-F1F2F8215043::net7.0::xUnitTests.Division_Neg_Test.Divide5By0ExpectException&lt;/TestId&gt;
+      &lt;TestId&gt;xUnit::BF6886CC-60DA-469D-834C-F1F2F8215043::net7.0::xUnitTests.SQR_Pos_Test.Add10Plus20Expect30&lt;/TestId&gt;
+      &lt;TestId&gt;xUnit::BF6886CC-60DA-469D-834C-F1F2F8215043::net7.0::xUnitTests.Sub_Pos_Test.Square36Expect6&lt;/TestId&gt;
+      &lt;TestId&gt;xUnit::BF6886CC-60DA-469D-834C-F1F2F8215043::net7.0::xUnitTests.Sub_Pos_Test.Substitute4Minus1Equals3&lt;/TestId&gt;
+      &lt;TestId&gt;xUnit::BF6886CC-60DA-469D-834C-F1F2F8215043::net7.0::xUnitTests.SQR_Neg_Test.Multiply4X4Equals16&lt;/TestId&gt;
+      &lt;TestId&gt;xUnit::BF6886CC-60DA-469D-834C-F1F2F8215043::net7.0::xUnitTests.SQR_Pos_Test.Square36Expected6&lt;/TestId&gt;
+      &lt;TestId&gt;xUnit::BF6886CC-60DA-469D-834C-F1F2F8215043::net7.0::xUnitTests.MLTP_Neg_Test.Multiply4X4Equals16&lt;/TestId&gt;
+      &lt;TestId&gt;xUnit::BF6886CC-60DA-469D-834C-F1F2F8215043::net7.0::xUnitTests.MLTP_Neg_Test.MultiplyBigXBigEqualsOutOfDouble&lt;/TestId&gt;
+      &lt;TestId&gt;xUnit::BF6886CC-60DA-469D-834C-F1F2F8215043::net7.0::xUnitTests.Power_Pos_Test.Add10Plus20Expect30&lt;/TestId&gt;
+      &lt;TestId&gt;xUnit::BF6886CC-60DA-469D-834C-F1F2F8215043::net7.0::xUnitTests.IsPositive_Pos_Test.Is7PositiveExpectsTrue&lt;/TestId&gt;
+      &lt;TestId&gt;NUnit3x::7D13AA12-6ED4-4102-B3FC-167BEC395553::net7.0::Selenium_Basics.SeleniumTests.CheckThatCorrectLandingPageDisplayed&lt;/TestId&gt;
+      &lt;TestId&gt;NUnit3x::7D13AA12-6ED4-4102-B3FC-167BEC395553::net7.0::Selenium_Basics.SeleniumTests.CheckThatGoBackToPreviousPageIsWorking&lt;/TestId&gt;
+      &lt;TestId&gt;NUnit3x::7D13AA12-6ED4-4102-B3FC-167BEC395553::net7.0::Selenium_Basics.SeleniumTests.FindContactUsButton&lt;/TestId&gt;
+      &lt;TestId&gt;NUnit3x::7D13AA12-6ED4-4102-B3FC-167BEC395553::net7.0::Selenium_Basics.EpamNavigationTests2&lt;/TestId&gt;
+      &lt;TestId&gt;NUnit3x::7D13AA12-6ED4-4102-B3FC-167BEC395553::net7.0::Selenium_Basics.SeleniumTests&lt;/TestId&gt;
+      &lt;TestId&gt;NUnit3x::323A87C1-51BA-4C3C-AC3B-3F451CE4262D::net7.0::Selenium_Advanced.SeleniumAdvancedTests.HoverOverCareerMenuTest&lt;/TestId&gt;
+      &lt;TestId&gt;NUnit3x::323A87C1-51BA-4C3C-AC3B-3F451CE4262D::net7.0::Selenium_Advanced.SeleniumAdvancedTests.VerifyListOfLangIsCorrect&lt;/TestId&gt;
+      &lt;TestId&gt;NUnit3x::323A87C1-51BA-4C3C-AC3B-3F451CE4262D::net7.0::Selenium_Advanced.SeleniumAdvancedTests.CheckThatThereAre20Elements&lt;/TestId&gt;
+      &lt;TestId&gt;NUnit3x::7D13AA12-6ED4-4102-B3FC-167BEC395553::net7.0::Selenium_Basics.EpamContentTextTests.CheckThatListOfCountriesContainsAmerEMEAandAPAC&lt;/TestId&gt;
+      &lt;TestId&gt;NUnit3x::7D13AA12-6ED4-4102-B3FC-167BEC395553::net7.0::Selenium_Basics.EpamContentTextTests.CheckThatUrlToSearchContainsMyText&lt;/TestId&gt;
+      &lt;TestId&gt;NUnit3x::7D13AA12-6ED4-4102-B3FC-167BEC395553::net7.0::Selenium_Basics.EpamContentTextTests.CheckThatTitleOfTheOpenedPageEqualsSearchTitle&lt;/TestId&gt;
+    &lt;/TestAncestor&gt;
+    &lt;ProjectFile&gt;7D13AA12-6ED4-4102-B3FC-167BEC395553/f:EpamNavigationTest.cs&lt;/ProjectFile&gt;
+    &lt;Project Location="/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/xUnitTests" Presentation="&amp;lt;xUnitTests&amp;gt;" /&gt;
+    &lt;Project Location="/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/NUnitTests" Presentation="&amp;lt;NUnitTests&amp;gt;" /&gt;
+    &lt;ProjectFile&gt;1E24492E-60DB-4D43-8409-1B146141F77F/f:PageObjectTests.cs&lt;/ProjectFile&gt;
+  &lt;/Or&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d33909e3_002D5f43_002D4e6f_002Db821_002D89d8af73f0bc/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="HoverOverCareerMenuTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::7D13AA12-6ED4-4102-B3FC-167BEC395553::net7.0::Selenium_Basics.EpamContentTextTests.CheckThatListOfCountriesContainsAmerEMEAandAPAC&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::7D13AA12-6ED4-4102-B3FC-167BEC395553::net7.0::Selenium_Basics.EpamContentTextTests.CheckThatUrlToSearchContainsMyText&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::7D13AA12-6ED4-4102-B3FC-167BEC395553::net7.0::Selenium_Basics.EpamContentTextTests.CheckThatTitleOfTheOpenedPageEqualsSearchTitle&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::7D13AA12-6ED4-4102-B3FC-167BEC395553::net7.0::Selenium_Basics.EpamContentTextTests.WriteXPathLocators&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::323A87C1-51BA-4C3C-AC3B-3F451CE4262D::net7.0::Selenium_Advanced.SeleniumAdvancedTests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestRunner/HangingTestRunnerResponse/@EntryValue">KillProcess</s:String></wpf:ResourceDictionary>

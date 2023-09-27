@@ -1,0 +1,15 @@
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/Cycles/bin/Debug/net7.0/Cycles
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/Cycles/bin/Debug/net7.0/Cycles.deps.json
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/Cycles/bin/Debug/net7.0/Cycles.runtimeconfig.json
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/Cycles/bin/Debug/net7.0/Cycles.dll
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/Cycles/bin/Debug/net7.0/Cycles.pdb
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/Cycles/obj/Debug/net7.0/Cycles.csproj.AssemblyReference.cache
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/Cycles/obj/Debug/net7.0/Cycles.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/Cycles/obj/Debug/net7.0/Cycles.AssemblyInfoInputs.cache
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/Cycles/obj/Debug/net7.0/Cycles.AssemblyInfo.cs
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/Cycles/obj/Debug/net7.0/Cycles.csproj.CoreCompileInputs.cache
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/Cycles/obj/Debug/net7.0/Cycles.dll
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/Cycles/obj/Debug/net7.0/refint/Cycles.dll
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/Cycles/obj/Debug/net7.0/Cycles.pdb
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/Cycles/obj/Debug/net7.0/Cycles.genruntimeconfig.cache
+/Users/alehhramovich/RiderProjects/Aleh_Hramovich_Application/Cycles/obj/Debug/net7.0/ref/Cycles.dll
