@@ -21,6 +21,8 @@ public class SeleniumAdvancedTests
         driver = new ChromeDriver(options);
         action = new Actions(driver);
         waiter = new WebDriverWait(driver, TimeSpan.FromSeconds(5));
+        driver.Manage().Window.Maximize();
+        driver.Navigate().GoToUrl(epamUrl);
         driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(1);
         driver.Manage().Timeouts().PageLoad = TimeSpan.FromSeconds(40);
     }
@@ -36,8 +38,6 @@ public class SeleniumAdvancedTests
     {
         var jobListingsUrl = "https://www.epam.com/careers/job-listings";
         
-        driver.Manage().Window.Maximize();
-        driver.Navigate().GoToUrl(epamUrl);
         action.MoveToElement(driver.FindElement(By.XPath("//*[text()='Careers']//ancestor::*[@class='top-navigation__item-link js-op']"))).Build().Perform();
         waiter.Until(d=>d.FindElement(By.XPath("//a[@href='/careers/job-listings']//parent::li[contains(@class, 'top')]")).Enabled);
         action.MoveToElement(driver.FindElement(By.XPath("//a[@href='/careers/job-listings']//parent::li[contains(@class, 'top')]"))).Click().Build().Perform();
@@ -49,8 +49,6 @@ public class SeleniumAdvancedTests
     {
         var listOfLanguages = new List<string> { "Global (English)", "Česká Republika (Čeština)", "Czech Republic (English)", "DACH (Deutsch)", "Hungary (English)", "India (English)", "日本 (日本語)","Polska (Polski)","СНГ (Русский)", "Україна (Українська)", "中国 (中文)"};
         
-        driver.Manage().Window.Maximize();
-        driver.Navigate().GoToUrl(epamUrl);
         driver.FindElement(By.XPath("//button[@class='location-selector__button']")).Click();
         waiter.Until(d => d.FindElement(By.XPath("//nav[@class='location-selector__panel']")));
         var listOfActualLanguages =
@@ -62,8 +60,7 @@ public class SeleniumAdvancedTests
     public void CheckThatThereAre20Elements()
     {
         var numberOfArticles = 20;
-        driver.Manage().Window.Maximize();
-        driver.Navigate().GoToUrl(epamUrl);
+        
         driver.FindElement(By.XPath("//div[@class='header-search-ui header-search-ui-23 header__control']")).Click();
         driver.FindElement(By.XPath("//li[@class='frequent-searches__item'][1]")).Click();
         driver.FindElement(By.XPath("//span[@class='bth-text-layer']")).Click();

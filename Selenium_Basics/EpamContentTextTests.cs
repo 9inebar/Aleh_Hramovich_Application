@@ -98,6 +98,7 @@ public class EpamContentTextTests
         bool fourthElement = driver.FindElement(By.Id("onetrust-accept-btn-handler")).Displayed;
         bool fifthElement = driver.FindElement(By.XPath("//div[@class='header-container iparsys parsys']//child::*[@class='header-ui-23']")).Displayed;
         
+        //assertions
         Assert.True(firstElement, "First element not displayed");
         Assert.True(secondElement, "Second element not displayed");
         Assert.True(thirdElement, "Third element not displayed");

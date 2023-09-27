@@ -51,6 +51,7 @@ public class SeleniumTests
 
         driver.Manage().Window.Maximize();
         driver.Navigate().GoToUrl(epamUrl);
+        
         driver.FindElement(By.XPath("//*[@class='header-search__button header__icon']"));
         driver.FindElement(By.XPath("//*[@id ='onetrust-consent-sdk']"));
         driver.FindElement(By.XPath("//*[@class='mobile-location-selector__link active']//ancestor::*[@href='https://www.epam.com']"));
