@@ -28,7 +28,7 @@ public class SeleniumAdvancedTests
     [TearDown]
     public void TearDown()
     {
-        driver.Quit();
+        driver.Dispose();
     }
 
     [Test]
